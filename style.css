@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+
+/* Cabeçalho do site */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+/* Título no cabeçalho */
+  header h1 {
+    margin: 0;
+  }
+  
+/* Menu de navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+/* Links de navegação */
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+/* Hero image */
+  .hero {
+    background-image: url('./imagens/hero-image.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 40px;
+    margin-bottom: 40px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+/* Imagens de portfólio */
+  .portfolio-gallery {
+    display: block;
+    text-align: center;
+  }
+  
+  .portfolio-gallery img {
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+/* Formulário dos contatos */
+  form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+/* Rodapé do site */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
